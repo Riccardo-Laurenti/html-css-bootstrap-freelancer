@@ -31,6 +31,11 @@ section {
     min-height: 50px;
 }
 
+/* HEADER*/
+
+.bg-darker-blue {
+ background-color: darkblue;
+}
 
 
 /* JUMBOTRON*/
@@ -44,20 +49,42 @@ section {
 }
 
 
-.my-star::after {
-    border: 1px solid white;
-    border-width: 30px;
+#avatar {
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 0.5rem;
 }
 
 
-.linea {
-    border: 1px solid white;
-    width: 80px;
-    margin: auto;
-    display: inline-block;
-}
+
 
 
 .my-img-port img {
     height: px;
 }
+
+/* STAR DIVIDER */
+
+.bi-star-fill {
+    font-size: 24px;
+    transform: translateY(-2px);
+}
+
+.star-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-divider::after,
+.star-divider::before {
+    content: '';
+    display: inline-block;
+    background-color: azure;
+    height: 2px;
+    margin: 0 20px;
+    width: 100px;
+}
+
+
+/* PORTFOLIIO*/
