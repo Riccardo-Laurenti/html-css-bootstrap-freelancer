@@ -78,31 +78,42 @@
 
 
           <!---------- SECTION 3 ABOUT ---------------->
-          <section id="about">
+          <section id="about" class="py-5 bg-primary text-center text-white">
               <div class="container">
-                    <div class="row">
-                        <div class="col">About + Stella</div>
+                    <div class="row mb-3">
+                      <div class="col">
+                        <h2>ABOUT</h2>
+                        <div class="star-divider"><i class="fa-solid fa-star fa-lg"></i></div>
+                      </div>
                     </div>
 
-                    <div class="row justify-content-center">
-                        <div class="col-10 col-md-5"> Lorem ipsum dolor sit, amet consectetur
+                    <div class="row gy-4 mb-4 text-start justify-content-center">
+                        <div class="col-10 col-md-5"> 
+                            <p class="mb-0">
+                                Lorem ipsum dolor sit, amet consectetur
                             adipisicing elit. Officiis esse
                             cum, expedita perferendis natus quod qui illum molestiae dignissimos
                             consectur, consequatur doloremque ipsa
                             disctinctio neo sunt! Neque soluta corrupti quod?
+                            </p>
 
                         </div>
-                        <div class="col-10 col-md-5">Lorem ipsum dolor sit, amet consectetur
+                        <div class="col-10 col-md-5">
+                            <p class="mb-0">
+                                Lorem ipsum dolor sit, amet consectetur
                             adipisicing elit. Officiis esse
                             cum, expedita perferendis natus quod qui illum molestiae dignissimos
                             consectur, consequatur doloremque ipsa
                             disctinctio neo sunt! Neque soluta corrupti quod?
+                            </p>
 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            BUTTON
+                             <button type="button" class="btn btn-outline-light">
+                                <i class="fa-solid fa-download"></i>
+                             </button>
                         </div>
                     </div>
 
@@ -114,17 +125,36 @@
 
 
           <!---------- SECTION 4 FORM---------------->
-          <section id="contacts">
+          <section id="contacts" class="py-5">
               <div class="container">
-                  <div class="row">
-                      <div class="col">
-                         Contact me + Stella
+                  <div class="row mb-4">
+                      <div class="col text-center">
+                        <h2>PORTFOLIO</h2>
+                        <div class="star-divider"><i class="fa-solid fa-star fa-lg"></i></div>
                       </div>
                   </div>
 
                   <div class="row">
                       <div class="col offset-lg-2 col-lg-8">
-                            form
+                            <form>
+                                <div class="mb-1">
+                                    <input type="text" class="pb-3 form-control" placeholder="Name">
+                                </div>
+
+                                <div class="mb-1">
+                                    <input type="email" class="pb-3 form-control" placeholder="Email Address">
+                                </div>
+
+                                <div class="mb-1">
+                                    <input type="tel" class="pb-3 form-control" placeholder="Phone Number">
+                                </div>
+
+                                <div class="mb-3">
+                                    <textarea class="pb-3 form-control" placeholder="Message"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-green">Send</button>
+                            </form>
                       </div>
                   </div>
               </div>
@@ -133,19 +163,56 @@
 
      <!---------- FOOTER ---------------->
     <footer>
-        <div class="footer-top container">
-             <div class="row">
-                  <div class="col-12 col-md-4">Location</div>
-                  <div class="col-12 col-md-4">Around The Web</div>
-                  <div class="col-12 col-md-4">About Freelancer</div>
-             </div>
-        </div>
+      <div class="footer-top bg-dark-blue py-5">
+         <div class="container">
+             <div class="row gy-4 row-cols-1 row-cols-md-3">
+                <div class="col">
+                    <h4>LOCATION</h4>
+                    <p class="mb-0">2215 John Daniel Drve Clark, MO 54243</p>
+                </div>
+                <div class="col text-center">
+                    <h4>AROUND THE WEB</h4>
+                     <ul class="web-icons list-unstyled gap-3 gap-md-1 gap-lg-3 d-flex align-items-center justify-content-center">
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                     </ul>
 
-        <div class="footer-bottom container-fluid">
-            <div class="row">
-                 <div class="col">Copyright</div>
+                </div>
+                <div class="col">
+                    <h4>ABOUT FREELANCER</h4>
+                    <P>
+                        Freelance is a free to use, open source Bootstrap theme created by 
+                        <a href="#" class="text-green text-decoration-none">START BOOTSTRAP</a>
+                    </P>
+                </div>
+             </div>
+         </div>
+      </div>
+      <div class="footer-bottom container-fluid bg-darker-blue py-4">
+        <div class="row h-100">
+            <div class="col justify-content-center d-flex">
+                <address class="mb-0 text-white">Copyright Marco Lanci</address>
             </div>
         </div>
+      </div>
     </footer>
 </body>
 </html>

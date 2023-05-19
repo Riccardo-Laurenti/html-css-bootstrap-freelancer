@@ -1,33 +1,11 @@
 /* UTILITIES */
 
-.my-bord-red {
-    border: 1px solid red;
-}
 
-header {
 
-}
-
-form {
-
-}
-
-section {
-    border: 2px dashed pink;
-    min-height: 500px;
-}
-
-.container {
-    border: 2px solid yellow;
-}
-
-.container-fluid {
-    border: 2px solid rgb(42, 255, 42);
-}
 
 
 [class^='col'] {
-    border: 2px solid red;
+
     min-height: 50px;
 }
 
@@ -88,3 +66,20 @@ section {
 
 
 /* PORTFOLIIO*/
+
+
+
+
+
+.web-icons > li {
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.web-icons a {
+    color: red;;
+}
