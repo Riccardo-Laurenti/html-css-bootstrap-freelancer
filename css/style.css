@@ -1,18 +1,27 @@
 /* UTILITIES */
 
 
-
-
-
 [class^='col'] {
-
     min-height: 50px;
 }
 
 /* HEADER*/
 
+
 .bg-darker-blue {
  background-color: darkblue;
+}
+
+
+
+.bg-light-blue {
+    background-color: rgb(53, 97, 219);
+}
+
+
+
+.bg-dk-blue {
+    background-color: rgb(38, 71, 163);
 }
 
 
@@ -26,14 +35,11 @@
     height: 180px;
 }
 
-
 #avatar {
     height: auto;
     max-width: 200px;
     margin-bottom: 0.5rem;
 }
-
-
 
 
 
@@ -66,15 +72,6 @@
 
 
 
-
-
-.bg-light-blue {
-    background-color: rgb(53, 97, 219);
-}
-
-
-
-
 .web-icons > li {
     border: 1px solid white;
     height: 43px;
@@ -91,6 +88,3 @@
 
 
 
-.bg-dk-blue {
-    background-color: rgb(38, 71, 163);
-}
