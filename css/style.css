@@ -65,21 +65,32 @@
 }
 
 
-/* PORTFOLIIO*/
 
+
+
+.bg-light-blue {
+    background-color: rgb(53, 97, 219);
+}
 
 
 
 
 .web-icons > li {
-    border: 1px solid red;
-    height: 50px;
-    width: 50px;
+    border: 1px solid white;
+    height: 43px;
+    width: 43px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 50%;
 }
 
 .web-icons a {
-    color: red;;
+    color: white;
+}
+
+
+
+.bg-dk-blue {
+    background-color: rgb(38, 71, 163);
 }
